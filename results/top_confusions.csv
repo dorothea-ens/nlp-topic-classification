@@ -1,0 +1,37 @@
+model,rank,true_category,predicted_category,misclassified_documents,true_category_support
+TF-IDF + Linear SVM,1,talk.politics.misc,talk.politics.guns,85,303
+TF-IDF + Linear SVM,2,talk.religion.misc,soc.religion.christian,63,245
+TF-IDF + Linear SVM,3,alt.atheism,soc.religion.christian,61,311
+TF-IDF + Linear SVM,4,comp.windows.x,comp.graphics,47,391
+TF-IDF + Linear SVM,5,comp.os.ms-windows.misc,comp.sys.ibm.pc.hardware,38,379
+TF-IDF + Linear SVM,6,comp.windows.x,comp.os.ms-windows.misc,34,391
+TF-IDF + Linear SVM,7,talk.religion.misc,alt.atheism,33,245
+TF-IDF + Linear SVM,8,comp.sys.ibm.pc.hardware,comp.os.ms-windows.misc,33,386
+TF-IDF + Linear SVM,9,comp.sys.ibm.pc.hardware,comp.sys.mac.hardware,32,386
+TF-IDF + Linear SVM,10,comp.sys.mac.hardware,comp.sys.ibm.pc.hardware,28,371
+TF-IDF + Linear SVM,11,talk.politics.mideast,alt.atheism,27,370
+TF-IDF + Linear SVM,12,sci.electronics,comp.sys.ibm.pc.hardware,26,383
+MiniLM + Logistic Regression,1,talk.religion.misc,soc.religion.christian,78,245
+MiniLM + Logistic Regression,2,talk.politics.misc,talk.politics.guns,78,303
+MiniLM + Logistic Regression,3,soc.religion.christian,talk.religion.misc,57,384
+MiniLM + Logistic Regression,4,alt.atheism,soc.religion.christian,47,311
+MiniLM + Logistic Regression,5,alt.atheism,talk.religion.misc,40,311
+MiniLM + Logistic Regression,6,soc.religion.christian,alt.atheism,38,384
+MiniLM + Logistic Regression,7,rec.motorcycles,rec.autos,38,386
+MiniLM + Logistic Regression,8,comp.sys.mac.hardware,sci.electronics,37,371
+MiniLM + Logistic Regression,9,comp.sys.mac.hardware,comp.sys.ibm.pc.hardware,37,371
+MiniLM + Logistic Regression,10,comp.sys.ibm.pc.hardware,comp.sys.mac.hardware,35,386
+MiniLM + Logistic Regression,11,talk.religion.misc,alt.atheism,34,245
+MiniLM + Logistic Regression,12,comp.os.ms-windows.misc,comp.sys.ibm.pc.hardware,33,379
+Fine-tuned DistilBERT,1,talk.politics.misc,talk.politics.guns,95,303
+Fine-tuned DistilBERT,2,talk.religion.misc,soc.religion.christian,88,245
+Fine-tuned DistilBERT,3,alt.atheism,soc.religion.christian,61,311
+Fine-tuned DistilBERT,4,talk.religion.misc,alt.atheism,46,245
+Fine-tuned DistilBERT,5,comp.windows.x,comp.os.ms-windows.misc,46,391
+Fine-tuned DistilBERT,6,comp.sys.ibm.pc.hardware,comp.os.ms-windows.misc,40,386
+Fine-tuned DistilBERT,7,soc.religion.christian,talk.religion.misc,36,384
+Fine-tuned DistilBERT,8,comp.os.ms-windows.misc,comp.sys.ibm.pc.hardware,35,379
+Fine-tuned DistilBERT,9,sci.electronics,comp.sys.ibm.pc.hardware,34,383
+Fine-tuned DistilBERT,10,rec.motorcycles,rec.autos,33,386
+Fine-tuned DistilBERT,11,comp.sys.mac.hardware,comp.sys.ibm.pc.hardware,33,371
+Fine-tuned DistilBERT,12,talk.religion.misc,talk.politics.guns,31,245

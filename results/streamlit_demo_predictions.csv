@@ -1,0 +1,61 @@
+model,rank,category,score,score_type,inference_seconds,notes
+TF-IDF + Linear SVM,1,sci.space,0.27525843,decision margin (not probability),0.27534,SVM margins are NOT probabilities.
+TF-IDF + Linear SVM,2,soc.religion.christian,-0.71557503,decision margin (not probability),0.27534,SVM margins are NOT probabilities.
+TF-IDF + Linear SVM,3,sci.med,-0.75247792,decision margin (not probability),0.27534,SVM margins are NOT probabilities.
+TF-IDF + Linear SVM,4,talk.religion.misc,-0.82658397,decision margin (not probability),0.27534,SVM margins are NOT probabilities.
+TF-IDF + Linear SVM,5,alt.atheism,-0.94133117,decision margin (not probability),0.27534,SVM margins are NOT probabilities.
+TF-IDF + Linear SVM,6,talk.politics.guns,-0.95278059,decision margin (not probability),0.27534,SVM margins are NOT probabilities.
+TF-IDF + Linear SVM,7,rec.autos,-0.98937851,decision margin (not probability),0.27534,SVM margins are NOT probabilities.
+TF-IDF + Linear SVM,8,sci.electronics,-0.99072014,decision margin (not probability),0.27534,SVM margins are NOT probabilities.
+TF-IDF + Linear SVM,9,rec.motorcycles,-1.00550617,decision margin (not probability),0.27534,SVM margins are NOT probabilities.
+TF-IDF + Linear SVM,10,talk.politics.mideast,-1.03111705,decision margin (not probability),0.27534,SVM margins are NOT probabilities.
+TF-IDF + Linear SVM,11,rec.sport.hockey,-1.04935338,decision margin (not probability),0.27534,SVM margins are NOT probabilities.
+TF-IDF + Linear SVM,12,comp.graphics,-1.05088378,decision margin (not probability),0.27534,SVM margins are NOT probabilities.
+TF-IDF + Linear SVM,13,comp.sys.mac.hardware,-1.05894870,decision margin (not probability),0.27534,SVM margins are NOT probabilities.
+TF-IDF + Linear SVM,14,comp.windows.x,-1.06348984,decision margin (not probability),0.27534,SVM margins are NOT probabilities.
+TF-IDF + Linear SVM,15,rec.sport.baseball,-1.06982329,decision margin (not probability),0.27534,SVM margins are NOT probabilities.
+TF-IDF + Linear SVM,16,comp.os.ms-windows.misc,-1.07632240,decision margin (not probability),0.27534,SVM margins are NOT probabilities.
+TF-IDF + Linear SVM,17,misc.forsale,-1.08267371,decision margin (not probability),0.27534,SVM margins are NOT probabilities.
+TF-IDF + Linear SVM,18,comp.sys.ibm.pc.hardware,-1.09317043,decision margin (not probability),0.27534,SVM margins are NOT probabilities.
+TF-IDF + Linear SVM,19,talk.politics.misc,-1.13931342,decision margin (not probability),0.27534,SVM margins are NOT probabilities.
+TF-IDF + Linear SVM,20,sci.crypt,-1.16000899,decision margin (not probability),0.27534,SVM margins are NOT probabilities.
+MiniLM + Logistic Regression,1,sci.space,0.99878377,classifier probability (uncalibrated),0.08628,First window only
+MiniLM + Logistic Regression,2,sci.electronics,0.00035353,classifier probability (uncalibrated),0.08628,First window only
+MiniLM + Logistic Regression,3,comp.graphics,0.00028460,classifier probability (uncalibrated),0.08628,First window only
+MiniLM + Logistic Regression,4,soc.religion.christian,0.00016593,classifier probability (uncalibrated),0.08628,First window only
+MiniLM + Logistic Regression,5,sci.med,0.00010074,classifier probability (uncalibrated),0.08628,First window only
+MiniLM + Logistic Regression,6,rec.autos,0.00009545,classifier probability (uncalibrated),0.08628,First window only
+MiniLM + Logistic Regression,7,sci.crypt,0.00008072,classifier probability (uncalibrated),0.08628,First window only
+MiniLM + Logistic Regression,8,comp.windows.x,0.00003174,classifier probability (uncalibrated),0.08628,First window only
+MiniLM + Logistic Regression,9,talk.religion.misc,0.00002704,classifier probability (uncalibrated),0.08628,First window only
+MiniLM + Logistic Regression,10,talk.politics.mideast,0.00002555,classifier probability (uncalibrated),0.08628,First window only
+MiniLM + Logistic Regression,11,comp.sys.ibm.pc.hardware,0.00002031,classifier probability (uncalibrated),0.08628,First window only
+MiniLM + Logistic Regression,12,misc.forsale,0.00000726,classifier probability (uncalibrated),0.08628,First window only
+MiniLM + Logistic Regression,13,comp.os.ms-windows.misc,0.00000573,classifier probability (uncalibrated),0.08628,First window only
+MiniLM + Logistic Regression,14,rec.sport.baseball,0.00000456,classifier probability (uncalibrated),0.08628,First window only
+MiniLM + Logistic Regression,15,talk.politics.misc,0.00000347,classifier probability (uncalibrated),0.08628,First window only
+MiniLM + Logistic Regression,16,alt.atheism,0.00000296,classifier probability (uncalibrated),0.08628,First window only
+MiniLM + Logistic Regression,17,rec.motorcycles,0.00000283,classifier probability (uncalibrated),0.08628,First window only
+MiniLM + Logistic Regression,18,comp.sys.mac.hardware,0.00000186,classifier probability (uncalibrated),0.08628,First window only
+MiniLM + Logistic Regression,19,rec.sport.hockey,0.00000142,classifier probability (uncalibrated),0.08628,First window only
+MiniLM + Logistic Regression,20,talk.politics.guns,0.00000049,classifier probability (uncalibrated),0.08628,First window only
+Fine-tuned DistilBERT,1,sci.space,0.98361754,softmax probability (uncalibrated),0.04517,Truncated to at most 256 tokens
+Fine-tuned DistilBERT,2,sci.med,0.00327571,softmax probability (uncalibrated),0.04517,Truncated to at most 256 tokens
+Fine-tuned DistilBERT,3,comp.graphics,0.00185937,softmax probability (uncalibrated),0.04517,Truncated to at most 256 tokens
+Fine-tuned DistilBERT,4,sci.electronics,0.00155788,softmax probability (uncalibrated),0.04517,Truncated to at most 256 tokens
+Fine-tuned DistilBERT,5,talk.religion.misc,0.00127187,softmax probability (uncalibrated),0.04517,Truncated to at most 256 tokens
+Fine-tuned DistilBERT,6,talk.politics.misc,0.00081185,softmax probability (uncalibrated),0.04517,Truncated to at most 256 tokens
+Fine-tuned DistilBERT,7,rec.autos,0.00074148,softmax probability (uncalibrated),0.04517,Truncated to at most 256 tokens
+Fine-tuned DistilBERT,8,rec.motorcycles,0.00071428,softmax probability (uncalibrated),0.04517,Truncated to at most 256 tokens
+Fine-tuned DistilBERT,9,soc.religion.christian,0.00066055,softmax probability (uncalibrated),0.04517,Truncated to at most 256 tokens
+Fine-tuned DistilBERT,10,sci.crypt,0.00060328,softmax probability (uncalibrated),0.04517,Truncated to at most 256 tokens
+Fine-tuned DistilBERT,11,comp.sys.mac.hardware,0.00059738,softmax probability (uncalibrated),0.04517,Truncated to at most 256 tokens
+Fine-tuned DistilBERT,12,rec.sport.hockey,0.00057966,softmax probability (uncalibrated),0.04517,Truncated to at most 256 tokens
+Fine-tuned DistilBERT,13,talk.politics.guns,0.00055024,softmax probability (uncalibrated),0.04517,Truncated to at most 256 tokens
+Fine-tuned DistilBERT,14,misc.forsale,0.00054678,softmax probability (uncalibrated),0.04517,Truncated to at most 256 tokens
+Fine-tuned DistilBERT,15,alt.atheism,0.00053821,softmax probability (uncalibrated),0.04517,Truncated to at most 256 tokens
+Fine-tuned DistilBERT,16,comp.windows.x,0.00051205,softmax probability (uncalibrated),0.04517,Truncated to at most 256 tokens
+Fine-tuned DistilBERT,17,talk.politics.mideast,0.00049411,softmax probability (uncalibrated),0.04517,Truncated to at most 256 tokens
+Fine-tuned DistilBERT,18,rec.sport.baseball,0.00042050,softmax probability (uncalibrated),0.04517,Truncated to at most 256 tokens
+Fine-tuned DistilBERT,19,comp.sys.ibm.pc.hardware,0.00035490,softmax probability (uncalibrated),0.04517,Truncated to at most 256 tokens
+Fine-tuned DistilBERT,20,comp.os.ms-windows.misc,0.00029238,softmax probability (uncalibrated),0.04517,Truncated to at most 256 tokens

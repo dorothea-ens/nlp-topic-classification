@@ -1,0 +1,11 @@
+{
+  "package": "NLP Multiclass Classification \u2014 Public Technical Portfolio",
+  "variant": "public-code-results-demo-no-university-submission",
+  "models_shipped": false,
+  "formal_academic_report_included": false,
+  "dataset_copies_included": false,
+  "document_level_benchmark_predictions_included": false,
+  "streamlit_evidence_included": true,
+  "public_summary": "docs/METHODS_AND_RESULTS.md",
+  "status": "Locally checked portfolio files; repository publication and hosted CI not yet verified"
+}

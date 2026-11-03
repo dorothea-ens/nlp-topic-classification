@@ -1,0 +1,8 @@
+-r requirements-core.txt
+# Embeddings, transformer fine-tuning, multiple-text-genre experiments, and UI
+torch>=2.2
+transformers>=4.46,<6
+accelerate>=1.0,<3
+sentence-transformers>=3.0,<6
+datasets>=3.0,<5
+streamlit>=1.32,<2
